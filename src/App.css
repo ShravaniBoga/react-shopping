@@ -5,9 +5,6 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-  border: 5px solid black;
-}
 .headerSection {
   display: flex;
   justify-content: space-between;
@@ -47,4 +44,11 @@ body {
 }
 .bannerBox img {
   width: 100%;
+}
+.menImages {
+  display: flex;
+}
+.menImages img {
+  width: 220px;
+  height: 220px;
 }

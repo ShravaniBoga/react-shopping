@@ -9,7 +9,9 @@
   display: flex;
   justify-content: space-between;
   padding: 10px;
-  background-color: rgb(68, 68, 194);
+  background-color: rgb(44, 44, 48);
+  color: white;
+  padding-top: 20px;
 }
 .center ul li {
   list-style: none;
@@ -20,7 +22,7 @@
   font-size: 1rem;
 }
 .left {
-  flex: 4;
+  flex: 2;
   /* border: 1px solid black; */
 }
 .center {
@@ -30,6 +32,12 @@
 .search {
   flex: 2;
   /* border: 1px solid black; */
+}
+.search input {
+  padding: 10px;
+  width: 20rem;
+  border-radius: 5px;
+  margin-left: -150px;
 }
 
 .right {
@@ -47,6 +55,7 @@
 }
 .menImages {
   display: flex;
+  gap: 10px;
 }
 .menImages img {
   width: 220px;

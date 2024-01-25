@@ -14,9 +14,10 @@ const MainPage = () => {
         <div>
             <Header />
             <Banner />
-            <Footer />
+
             <Collection gentsFashion={gentsFashion} />
             <WomenCollection ladiesFashion={ladiesFashion} />
+            <Footer />
 
         </div>
     );
